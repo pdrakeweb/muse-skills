@@ -9,6 +9,7 @@ Agent skills for Muse, maintained here so they can be versioned and updated.
 | [android_long_running_work](android_long_running_work/) | Build Android extracts, exports and other long running jobs that stay alive, resume where they stopped, and settle honestly when the system kills them. |
 | [app_creation_settled_verification](app_creation_settled_verification/) | Amendment to App Creation adding settled state verification, single flight retry handling, and numeric tie out for data heavy Muse artifacts. |
 | [card_account_verification](card_account_verification/) | Verify a card account's current number, holder, and renewal date before reporting any downgrade, cancel, or fee action. |
+| [credit-card-bonus-research](credit-card-bonus-research/) | Find current credit card sign-up bonuses from listing sites, confirm them on the issuer page, check eligibility, and rank by first-year net value. |
 | [cf-cli](cf-cli/) | Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Cloudflare commands from the terminal — sign-in and profiles, cf cli search, cf schema, cf deploy/dev/build, resource commands for DNS, zones, D1, KV, and R2 — and for choosing between cf and Wrangler in a project. |
 | [cloudflare-email-service](cloudflare-email-service/) | Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration. |
 | [cloudflare-one-migrations](cloudflare-one-migrations/) | Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout. |
@@ -33,8 +34,8 @@ These skills live in their own repos and are not duplicated here:
 - [android-app-development](https://github.com/pdrakeweb/android-app-development-skill) — guided native Android app development
 - [council](https://github.com/pdrakeweb/council-skill) — a council of sub-agents debates a hard question; a Judge rules
 - [food-photo-nutrition](https://github.com/pdrakeweb/food-photo-nutrition-skill) — calories and macros from a food photo
-- [local-monarch](https://github.com/pdrakeweb/monarch-money-skill/tree/main/monarch-money) — Monarch Money data pull (private repo)
-- [muse-parallel-work](https://github.com/pdrakeweb/muse-parallel-work) — parallel work governor: dispatch, admit, spawn, reconcile (private repo)
+- [local-monarch](https://github.com/pdrakeweb/monarch-money-skill/tree/main/monarch-money) — Monarch Money data pull
+- [muse-parallel-work](https://github.com/pdrakeweb/muse-parallel-work) — parallel work governor: dispatch, admit, spawn, reconcile
 
 ## Layout
 
